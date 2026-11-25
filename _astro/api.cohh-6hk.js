@@ -1,0 +1,1 @@
+async function e(e,t,n=!1){try{let r=await fetch(e,{method:`POST`,headers:{"Content-Type":`application/json`},body:JSON.stringify(t),credentials:`same-origin`,keepalive:n}),i={};try{i=await r.json()}catch{}return{status:r.status,data:i}}catch{return{status:0,data:{}}}}function t(e,t){}export{t as n,e as t};

@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /training/certificate/
+Disallow: /hearing-friendly/manager-dashboard/
+Disallow: /homes/
+Disallow: /platform-template/
+Disallow: /platform-data/
+
+Sitemap: https://carehomehearing.org/sitemap-index.xml
